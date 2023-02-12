@@ -7,4 +7,3 @@ RUN apt-get update \
     && rm -rf /var/lib/apt/lists/* \
     && docker-php-ext-install zip \
     && docker-php-ext-install mysqli
-RUN chown -R www-data:www-data /var/www
